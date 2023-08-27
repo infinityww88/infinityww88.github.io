@@ -1,50 +1,81 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "Xiao's personal website"
+excerpt: "About Xiao"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+## Biography
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Currently I am a third year Ph.D. candidate of School of Biological Science & Medical Engineering in Southeast University. I joined Institute of Data Science of Maastricht University as a visiting researcher from 2021. My research interest is information extraction and knowledge graph.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I received my B.Sc. degree in Mechatronic Engineering in June 2015 from Mechanical Engineering and Automation College of Xihua University. Then I got my M.Sc. degree in Forestry Information Engineering in June 2019 from Information and Computer Engineering College of Northeast Forestry University. CV
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Recent Update
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+- Biomedical Information Extraction from Text
+- Knowledge graph in Biomedical Domain
+- Estimation of epidemiological parameters from differential equations
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Research Interests
 
-**Markdown generator**
+I am interested in the following topics:
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- Knowledge Graph
+- Biomedical Natural Language Processing
+- Parameter estimation in stochastic mathematical mode
+- Others
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Publications
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- X Ning, R Celebi. Semantic Answer Type Prediction by Using BERT classifier and Rule-based Ranking Strategies. (accepted)
+- Y Wei, J Guan, X Ning. Global COVID-19 pandemic waves: Limited lessons learned worldwide over the past year. Engineering. 2021 Sep 14. doi: 10.1016/j.eng.2021.07.015.
+- X Ning, P Zhao. Segmentation algorithm of annual ring image based on U-Net convolution network [J]. Journal of ecology,2019,38(05):1580-1588. (In Chinese)
+- X Ning, P Zhao. Image segmentation of tree ring based on the random forest algorithm[J] Journal of Forestry Engineering,2018,3(04):125-130. (In Chinese)
+- P Zhao, Y Li, X Ning. Simultaneous Wood Defect and Species Detection with 3D Laser Scanning Scheme[J]. International Journal of Optics, 2016, 2016:1-6.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Project Experience
+
+- Drug-Disease relation extraction from DailyMed using weak supervision
+- Semantic Answer Type and Relation Prediction Task at ISWC 2021 Semantic Web Challenge
+- LitCoin NLP Challenge: NER and Relation extraction
+- Drug repurposing via vector space walk using rules and embeddings from knowledge graphs
+
+## Conferences
+
+- The Second/Third Women in Data Science Datathon, 2021/2022
+- 9th Jiangsu bioinformatics academic conference&biomedical big data Forum in Nanjing,China
+- China health statistics academic annual conference 2019 in Guangzhou, Guangdong, China
+- 6th Jinling International Statistical Genetics and Genomics Forum 2019 in Nanjing, China
+
+## Skills
+
+- Computer Programming (Python, C/C++, MATLAB)
+- Nature Language Processing (Text Classification, NER and RE)
+- Machine/Deep Learning (scikit-learn, PyTorch, TensorFlow, CNN, RNN, Lstm, Transformr…)
+- Computer Vision (Image processing, image classification, segmentation and detection)
+
+## Teaching
+
+- Data Minging. (for master students in Maastricht University. Fall, 2021)
+
+## Contests & Awards
+
+2020 Joint Ph.D. students from China Scholarship Council (CSC-UM Scholarship Program).
+
+## Courses followed
+
+- Neural Information Acquisition Methods and Techniques; New Advances in Natural Drug Research and New Drug Development; Nano-bio and Pharmaceutical Technology Fundamentals Bio-Coupling Technology
+- Senior Database Theory and Applications; Forestry Information Engineering Technology; Digital Image Processing and Analysis; Data Storage and Data Mining; Pattern Recognition Theory and Applications; High Performance Computing and Cloud Computing; Algorithm Design and Analysis; Modern Intelligent Information processing Practice Methods
+- Engineering Drawing; Electrical Fundamentals; Computer Application Fundamentals; Mechanical Design Fundamentals; Analogue Electronics; Digital Electronics; Power Electronics Control Engineering Fundamentals; Microcontroller principles and applications; Mechanical and Electrical Automatic Control; Mechanical engineering test technology; Robotics;; Digital image processing; C++ Programming applications in measurement and control; Mechanical and electrical integration fundamentals
+
+## Academic Service
+
+- Anonymous
+
+## Correspondence
+
+- Anonymous
